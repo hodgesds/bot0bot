@@ -2,7 +2,7 @@
 bot0bot is a twitch bot, it supports various [plugins](plugins/README.md). It
 runs via command line or windows command prompt. To compile bot0bot with extra
 plugins you need to clone/fork the repo and import any plugins in
-[main.go](bot0bot/main.go).
+[main.go](bot0bot/main.go#L11).
 
 ```sh
 NAME:
