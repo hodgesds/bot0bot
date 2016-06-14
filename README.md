@@ -1,5 +1,5 @@
 # bot0bot
-bot0bot is a twitch bot, it supports various [plugins](plugins/README.md).
+bot0bot is a twitch bot, it supports various [plugins](plugins/README.md). It runs via command line or windows command prompt.
 
 ```sh
 NAME:
