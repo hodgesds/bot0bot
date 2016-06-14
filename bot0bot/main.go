@@ -36,7 +36,7 @@ func main() {
 		cli.StringFlag{
 			Name:  "channel",
 			Value: "",
-			Usage: "Channel should be #<twitch user>",
+			Usage: "Channel should be `#<twitch user>`",
 		},
 		cli.StringFlag{
 			Name:  "user",
@@ -68,7 +68,7 @@ func main() {
 		cli.StringSliceFlag{
 			Name:  "plugins",
 			Value: &cli.StringSlice{"hello", "iq"},
-			Usage: "Breadbot plugins",
+			Usage: "bot0bot plugins",
 		},
 	}
 

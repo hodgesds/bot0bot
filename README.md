@@ -1,5 +1,8 @@
 # bot0bot
-bot0bot is a twitch bot, it supports various [plugins](plugins/README.md). It runs via command line or windows command prompt.
+bot0bot is a twitch bot, it supports various [plugins](plugins/README.md). It
+runs via command line or windows command prompt. To compile bot0bot with extra
+plugins you need to clone/fork the repo and import any plugins in
+[main.go](bot0bot/main.go).
 
 ```sh
 NAME:
@@ -22,7 +25,7 @@ GLOBAL OPTIONS:
    --host value             IRC Host (default: "irc.twitch.tv")
    --password value         Oauth password see http://www.twitchapps.com/tmi/
    --port value, -p value   tcp port (default: 6667)
-   --plugins value          Breadbot plugins (default: "hello", "iq")
+   --plugins value          bot0bot plugins (default: "hello", "iq")
    --help, -h               show help
    --version, -v            print the version
    
@@ -32,5 +35,8 @@ GLOBAL OPTIONS:
 Why doesn't my twitch password doesn't work?
 * Try using a twitch [oauth password](http://www.twitchapps.com/tmi/)
 
+Do I have to compile it to run?
+* Nope, download binaries from [releases](https://github.com/hodgesds/bot0bot/releases)
+
 Can I run this on Windows?
-* Yep
+* Yep, see [releases](https://github.com/hodgesds/bot0bot/releases)
